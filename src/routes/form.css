@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.Forms{
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 12px;
+    border: 1px solid #ccc; /* Add a solid border for the main box */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for the 3D effect */
+  border-radius: 10px; /* Add rounded corners for a softer look */
+
+  /* Add transition for smooth hover effect (optional) */
+  transition: box-shadow 0.3s ease-in-out;
+}
+.Forms:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4); /* Increase box shadow on hover for depth */
+  }
+
+.textinput{
+    margin: 10px 0px !important;
+}
+
+.btnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
